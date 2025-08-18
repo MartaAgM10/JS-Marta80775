@@ -4,14 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>VentaProductos</title>
+    <title>APP VentaProductos</title>
   </head>
   <body>
-    <h1>VENTA DE PRODUCTOS</h1>
+    <h1>APP VENTA DE PRODUCTOS</h1>
     <p>
       El contenido de la presentación refiere a la venta de productos integrando
-      los conceptos aprendidos en la cursada
+      los conceptos aprendidos en la cursada. <br /><strong
+        >En esta actualización se integran los conceptos DOM , Eventos y
+        LocalStorage</strong
+      >
     </p>
+    <p>Agregue productos al carrito y finalice su compra.</p>
+
+    <!-- Listado donde se muestran los productos y total -->
+    <h2>Carrito</h2>
+    <ul id="listaProductos"></ul>
+    <p id="total"></p>
+    <!-- Muestra de la lista de productos y total en el DOM -->
+    <div id="cart"></div>
+    <button id="finBtn">Finalizar compra</button>
+
     <script src="main.js"></script>
   </body>
 </html>
